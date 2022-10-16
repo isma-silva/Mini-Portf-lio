@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/rolagem.css">
+
+    <title>Mini Portifólio</title>
+</head>
+<body>
+    <main class="cartao">
+        <div class="minhas-informacoes">
+            <img src="src/img/foto1.png" alt="foto-perfil" class="imgperfil"/>
+            <h1 class="nome">Ismael da Silva</h1>
+            <h2 class="cargo">Desenvolvedor Front-End Júnior</h2>
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="src/img/gif3.gif" alt="ícone sabre mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="src/img/gif2.gif" alt="ícone de redes sociais">
+                </li>
+            </ul>
+
+            <div class="informacoes-abas">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3> <br>
+
+                    <div class="descricao">
+                        <p class="descricao-boasvindas">Olá! Me chamo Ismael, seja bem-vindo(a)!</p>
+
+                        <p>Quando eu tive meu primeiro contato com a pragramação, pensei comigo mesmo que nunca atuaria nessa área. Hoje em dia faço Curso Superior e sou completamente apaixonado por esses códigos que estão mudando a minha vida.</p>
+                        <p>Atualmente estou estudando <span>HTML, CSS, JavaScript</span> não vejo a hora de estar por dentro desse universo atuando e desenvolvendo vários projetos. Gosto muito de Animes, Ilustrações, Cantar, ouvir músicas, um Cafézinho (É sempre bom) e costumo dizer que meu hobbie é Programar.</p>
+
+                    </div>
+                </div>
+
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas Redes</h3> <br>
+
+                    <ul class="redes-sociais">
+                        <li>
+                            <a href="#" target="_blank" class="curriculo">Currículo</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/ismael-silva-0253b1240/" target="_blank" class="linkedin">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/isma-silva" target="_blank" class="github">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--video de fundo-->
+        <div class="fundo">
+            <video autoplay loop class="fundomp4">
+                <source src="src/video/fundo-video-1.mp4" alt="fundo-animado" type="video/mp4">
+            </video>
+
+        </div>
+    </main>
+
+    <script src="./src/js/index.js">
+
+    </script>
+</body>
+</html>
